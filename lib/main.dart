@@ -68,7 +68,7 @@ class MyHomePage extends StatelessWidget {
             onPressed: () {
               context.read<CountBloc>().add(DecrementCount());
             },
-            tooltip: 'Increment',
+            tooltip: 'Decrement',
             child: const Icon(Icons.remove),
           ),
         ],
